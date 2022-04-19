@@ -5,6 +5,7 @@ interface DAO:
 
 dao_address: public(address)
 owner_address: public(address)
+count: public(uint256)
 
 @external
 def __init__():
